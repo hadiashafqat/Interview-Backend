@@ -1,0 +1,32 @@
+{
+  "name": "sales-order-backend",
+  "version": "1.0.0",
+  "description": "Simple Sales Order Management backend (Node.js + Express + PostgreSQL)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "setup-db": "node setup-db.js",
+    "seed": "node seed.js",
+    "check-db": "node check-db.js",
+    "verify-schema": "node verify-schema.js",
+    "verify-seed": "node verify-seed.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgres",
+    "sales-order"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
+
+
